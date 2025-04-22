@@ -1,5 +1,5 @@
 # Time Series Analysis and Predictive Modeling
-This project delivers a comprehensive time series analysis and forecasting framework for USD/TRY exchange rates, using advanced statistical techniques and predictive modeling.
+This project delivers a comprehensive time series analysis and forecasting framework for USD/INR exchange rates, using advanced statistical techniques and predictive modeling.
 
 **Key Highlights**
 * **Statistical Tests & Diagnostics:** Stationarity checks (ADF, KPSS), trend analysis (Hodrick-Prescott filter), and Kruskal-Wallis tests for median differences.
@@ -17,7 +17,7 @@ This project is divided into two main notebooks for clarity and modularity:
 2. Time Series Predictive Modeling and Forecasting - Focuses on model selection, hyperparameter tuning, and performance comparison between ARIMA and SARIMA.
 
 ## **2. About The Dataset**
-The dataset consists of daily USD/TRY exchange rate data retrieved from Yahoo Finance. This dataset includes key price metrics like:
+The dataset consists of daily USD/INR exchange rate data retrieved from Yahoo Finance. This dataset includes key price metrics like:
 
 * Open, High, Low, Close prices
 * Volume of trades
@@ -29,7 +29,7 @@ The dataset consists of daily USD/TRY exchange rate data retrieved from Yahoo Fi
 * **Missing Value Handling:** Addressed missing data by custom imputation methods to avoid distortions, particularly for moving averages.
 
 ## **4. Exploratory Data Analysis (EDA)**
-The analysis notebook dives into a detailed EDA of the dataset to understand the underlying trends, seasonality, and volatility of USD/TRY exchange rates. Key visualizations include:
+The analysis notebook dives into a detailed EDA of the dataset to understand the underlying trends, seasonality, and volatility of USD/INR exchange rates. Key visualizations include:
 
 * **Yearly and Monthly Price Analysis:** Visualizes long-term and short-term patterns in exchange rates.
 * **Moving Averages and Price Differences:** Highlights volatility and trend strength over time.
@@ -76,4 +76,4 @@ The project concluded with several key insights:
 * Extend Backtesting: Apply more sophisticated backtesting techniques for enhanced validation.
 
 ## **9.Summary**
-This project provides a complete pipeline for analyzing and forecasting USD/TRY exchange rates using time series techniques. Through rigorous diagnostics, ARIMA and SARIMA models were tested and compared, providing a robust framework for exchange rate prediction. Future improvements could leverage additional data and advanced modeling techniques to build on these findings.
+This project provides a complete pipeline for analyzing and forecasting USD/INR exchange rates using time series techniques. Through rigorous diagnostics, ARIMA and SARIMA models were tested and compared, providing a robust framework for exchange rate prediction. Future improvements could leverage additional data and advanced modeling techniques to build on these findings.
